@@ -33,3 +33,11 @@ def contact(request):
 def ministries(request):
     
     return render(request, 'ministries.html', {})
+
+
+
+
+
+
+
+

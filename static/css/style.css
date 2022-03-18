@@ -1,0 +1,32 @@
+
+#pop-up{
+    width: 500px;
+    height: 500px;
+    padding: 50px;
+    margin-top: 0px;
+    position: absolute;
+    top: 35%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    position: fixed;
+}
+
+
+#pop-up button{
+display: block;
+margin: 0 0 10px auto;
+background-color: white;
+font-size: 20px;
+color: #c5c5c5;
+border:#c5c5c5;
+outline: none;
+cursor: pointer;
+height: 21px;
+
+}
+
+#pop_bottom{
+background-color: white;
+height: 50px;
+}
+
