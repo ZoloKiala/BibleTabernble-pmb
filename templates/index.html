@@ -408,6 +408,12 @@
                 display: none;
             }
         }
+        @media (max-width:921px) {
+             #pop-up {
+                display: initial;
+            }
+        }
+
 
         @media (min-width:921px) {
             #ast-mobile-header {
@@ -3390,16 +3396,7 @@ flexibility(document.documentElement);
                                                                 <li id="menu-item-1731" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1731"><a href="{% url 'gallery' %}" class="menu-link">Gallery</a></li>
                                                                 <li id="menu-item-1734" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1734"><a href="{% url 'contact' %}" class="menu-link">Contact</a></li>
                                                             </ul>
-
-                                                            <!-- Pop up here -->
-                                                            <div id="pop-up">
-                                                                
-                                                                <img src="{% static 'images/IMG-20220314-WA0002.jpg' %}" alt="">
-                                                                <p id="pop_bottom">
-                                                                    <button id="close">&times;</button> 
-                                                                </p>
-                                                                
-                                                            </div> 
+                                                        
                                                                     
                                                         </div>
                                                     </nav>
@@ -3412,6 +3409,15 @@ flexibility(document.documentElement);
                         </div>
                     </div>
                 </div>
+
+
+
+
+
+
+
+
+                
                 <!-- Main Header Bar Wrap -->
                 <div id="ast-mobile-header" class="ast-mobile-header-wrap " data-type="off-canvas">
                     <div class="ast-main-header-wrap main-header-bar-wrap">
@@ -3486,6 +3492,18 @@ flexibility(document.documentElement);
                                                             <div class="elementor-element elementor-element-240b2031 elementor-widget elementor-widget-text-editor" data-id="240b2031" data-element_type="widget" data-widget_type="text-editor.default">
                                                                 <div class="elementor-widget-container">
                                                                     <p>Come fellowship with us if you would like to be a part of the body of believers living and spreading the Word of our soon returning Lord and King, Jesus Christ</p>
+                                                                
+                                                                    <!-- Pop up here -->
+                                                            <div id="pop-up">
+                                                                
+                                                                <img src="{% static 'images/IMG-20220314-WA0002.jpg' %}" alt="">
+                                                                <p id="pop_bottom">
+                                                                    <button id="close">&times;</button> 
+                                                                </p>
+                                                                
+                                                            </div> 
+                                                                
+                                                                
                                                                 </div>
                                                             </div>
                                                         </div>

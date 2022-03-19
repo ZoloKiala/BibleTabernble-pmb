@@ -1,15 +1,38 @@
 
 #pop-up{
-    width: 500px;
-    height: 500px;
+    z-index: 1000;
+    width: 520px;
+    height: 678px;
     padding: 50px;
-    margin-top: 0px;
-    position: absolute;
+    /* margin-top: 10px; */
+    margin-top: 85px;
+    position: relative;
     top: 35%;
     left:50%;
     transform:translate(-50%, -50%);
     position: fixed;
+   
+    
 }
+
+@media (max-width:900px) {
+    #pop-up {
+        z-index: 1000;
+        width: 420px;
+        height: 578px;
+        padding: 50px;
+        margin-top: 20px;
+        margin-bottom: 100px;
+        position: relative;
+        top: 35%;
+        left: 50%;
+        transform:translate(-50%, -50%);
+        position: fixed;
+        
+    }
+} 
+
+
 
 
 #pop-up button{
@@ -17,13 +40,21 @@ display: block;
 margin: 0 0 10px auto;
 background-color: white;
 font-size: 20px;
-color: #c5c5c5;
-border:#c5c5c5;
-outline: none;
+color: red;
+border:red;
+border-radius: 100px;
+outline: red;
 cursor: pointer;
 height: 21px;
 
+
 }
+
+
+
+
+
+
 
 #pop_bottom{
 background-color: white;
