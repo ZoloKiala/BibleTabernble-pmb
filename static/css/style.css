@@ -30,3 +30,21 @@ background-color: white;
 height: 50px;
 }
 
+/* Minitries CSS */
+#img-center img{
+    width: 10px !important;
+    height: 52px;
+    margin: 1000px;
+    
+}
+
+/* #container-min {
+    margin: 10px !important;
+} */
+
+/* #container-min p{
+    margin: 10px !important;
+    color: red;
+} */
+
+
