@@ -3603,42 +3603,7 @@ flexibility(document.documentElement);
 													itemscope="itemscope">
 													<div class="main-navigation ast-inline-flex">
 
-														<ul id="ast-hf-menu-1"
-															class="main-header-menu ast-menu-shadow ast-nav-menu ast-flex  submenu-with-border astra-menu-animation-fade  stack-on-mobile">
-															<li id="menu-item-1739"
-																class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-1059 current_page_item menu-item-1739">
-																<a href="{% url 'index' %}" aria-current="page"
-																	class="menu-link">Home</a></li>
-															<li id="menu-item-1740"
-																class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1740">
-																<a href="{% url 'team' %}" class="menu-link">Team
-																	Members</a></li>
-															<li id="menu-item-1741"
-																class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1741">
-																<a href="{% url 'ministries' %}"
-																	class="menu-link">Ministries</a></li>
-															<li id="menu-item-1733"
-																class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1733">
-																<a href="{% url 'prayer' %}" class="menu-link">Prayer
-																	Request</a></li>
-															<li id="menu-item-1732"
-																class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1732">
-																<a href="{% url 'announcements' %}"
-																	class="menu-link">Announcements</a></li>
-															<li id="menu-item-1735"
-																class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1735">
-																<a href="{% url 'library' %}"
-																	class="menu-link">Library</a></li>
-															<li id="menu-item-1731"
-																class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1731">
-																<a href="{% url 'gallery' %}"
-																	class="menu-link">Gallery</a></li>
-															<li id="menu-item-1734"
-																class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1734">
-																<a href="{% url 'contact' %}"
-																	class="menu-link">Contact</a></li>
-														</ul>
-
+														{% include 'nav_desktop.html' %}
 
 
 													</div>
@@ -3929,39 +3894,7 @@ flexibility(document.documentElement);
 										itemtype="https://schema.org/SiteNavigationElement" itemscope="itemscope">
 										<div class="main-navigation">
 
-
-											<ul id="ast-hf-menu-1"
-												class="main-header-menu ast-menu-shadow ast-nav-menu ast-flex  submenu-with-border astra-menu-animation-fade  stack-on-mobile">
-												<li id="menu-item-1739"
-													class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-1059 current_page_item menu-item-1739">
-													<a href="{% url 'index' %}" aria-current="page"
-														class="menu-link">Home</a></li>
-												<li id="menu-item-1740"
-													class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1740">
-													<a href="{% url 'team' %}" class="menu-link">Team Members</a></li>
-												<li id="menu-item-1741"
-													class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1741">
-													<a href="" class="menu-link">Ministries</a></li>
-												<li id="menu-item-1733"
-													class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1733">
-													<a href="{% url 'prayer' %}" class="menu-link">Prayer Request</a>
-												</li>
-												<li id="menu-item-1732"
-													class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1732">
-													<a href="{% url 'announcements' %}"
-														class="menu-link">Announcements</a></li>
-												<li id="menu-item-1735"
-													class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1735">
-													<a href="{% url 'library' %}" class="menu-link">Library</a></li>
-												<li id="menu-item-1731"
-													class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1731">
-													<a href="{% url 'gallery' %}" class="menu-link">Gallery</a></li>
-												<li id="menu-item-1734"
-													class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1734">
-													<a href="" class="menu-link">Contact</a></li>
-											</ul>
-
-
+											{% include 'nav_mobile.html' %}
 
 										</div>
 									</nav>
