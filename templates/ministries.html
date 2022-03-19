@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="profile" href="https://gmpg.org/xfn/11">
 
-    <title>Library &#8211; bibletabernacle-pmb.co.za</title>
+    <title>Library</title>
     <meta name='robots' content='max-image-preview:large' />
     <link rel='dns-prefetch' href='//fonts.googleapis.com' />
     <link rel='dns-prefetch' href='//s.w.org' />
@@ -70,12 +70,12 @@
             color: #010717;
         }
 
-       p {
+        p {
             margin-left: 50px;
             margin-right: 50px;
         }
 
-        #img-center{
+        #img-center {
             margin-top: 50px;
         }
 
@@ -3609,50 +3609,41 @@ flexibility(document.documentElement);
                                                     itemscope="itemscope">
                                                     <div class="main-navigation ast-inline-flex">
 
-                                                        <ul id="ast-hf-menu-1"
-                                                            class="main-header-menu ast-menu-shadow ast-nav-menu ast-flex  submenu-with-border astra-menu-animation-fade  stack-on-mobile">
-                                                            <li id="menu-item-1739"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-1059 current_page_item menu-item-1739">
-                                                                <a href="{% url 'index' %}" aria-current="page"
-                                                                    class="menu-link">Home</a>
-                                                            </li>
-                                                            <li id="menu-item-1740"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1740">
-                                                                <a href="{% url 'team' %}" class="menu-link">Team
-                                                                    Members</a>
-                                                            </li>
-                                                            <li id="menu-item-1741"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1741">
-                                                                <a href="{% url 'ministries' %}"
-                                                                    class="menu-link">Ministries</a>
-                                                            </li>
-                                                            <li id="menu-item-1733"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1733">
-                                                                <a href="{% url 'prayer' %}" class="menu-link">Prayer
-                                                                    Request</a>
-                                                            </li>
-                                                            <li id="menu-item-1732"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1732">
-                                                                <a href="{% url 'announcements' %}"
-                                                                    class="menu-link">Announcements</a>
-                                                            </li>
-                                                            <li id="menu-item-1735"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1735">
-                                                                <a href="{% url 'library' %}"
-                                                                    class="menu-link">Library</a>
-                                                            </li>
-                                                            <li id="menu-item-1731"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1731">
-                                                                <a href="{% url 'gallery' %}"
-                                                                    class="menu-link">Gallery</a>
-                                                            </li>
-                                                            <li id="menu-item-1734"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1734">
-                                                                <a href="{% url 'contact' %}"
-                                                                    class="menu-link">Contact</a>
-                                                            </li>
-                                                        </ul>
-
+                                                        <ul id="ast-hf-mobile-menu"
+												class="main-header-menu ast-nav-menu ast-flex  submenu-with-border astra-menu-animation-fade  stack-on-mobile">
+												<li
+													class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1739">
+													<a href="{% url 'index' %}"
+														class="menu-link">Home</a></li>
+												<li
+													class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1740">
+													<a href="% url 'team' %}"
+														class="menu-link">Team Members</a></li>
+												<li
+													class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1741">
+													<a href="{% url 'ministries' %}"
+														class="menu-link">Ministries</a></li>
+												<li
+													class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1733">
+													<a href="{% url 'prayer' %}"
+														class="menu-link">Prayer Request</a></li>
+												<li
+													class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1732">
+													<a href="{% url 'announcements' %}"
+														class="menu-link">Announcements</a></li>
+												<li
+													class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1735">
+													<a href="{% url 'library' %}"
+														class="menu-link">Library</a></li>
+												<li
+													class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1299 current_page_item menu-item-1731">
+													<a href="{% url 'gallery' %}"
+														aria-current="page" class="menu-link">Gallery</a></li>
+												<li
+													class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1734">
+													<a href="{% url 'contact' %}"
+														class="menu-link">Contact</a></li>
+											</ul>
 
                                                     </div>
                                                 </nav>
@@ -3832,10 +3823,12 @@ flexibility(document.documentElement);
                                                 <li id="menu-item-1739"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-1059 current_page_item menu-item-1739">
                                                     <a href="{% url 'index' %}" aria-current="page"
-                                                        class="menu-link">Home</a></li>
+                                                        class="menu-link">Home</a>
+                                                </li>
                                                 <li id="menu-item-1740"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1740">
-                                                    <a href="{% url 'team' %}" class="menu-link">Team Members</a></li>
+                                                    <a href="{% url 'team' %}" class="menu-link">Team Members</a>
+                                                </li>
                                                 <li id="menu-item-1741"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1741">
                                                     <a href="{% url 'ministries' %}" class="menu-link">Ministries</a>
@@ -3847,16 +3840,20 @@ flexibility(document.documentElement);
                                                 <li id="menu-item-1732"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1732">
                                                     <a href="{% url 'announcements' %}"
-                                                        class="menu-link">Announcements</a></li>
+                                                        class="menu-link">Announcements</a>
+                                                </li>
                                                 <li id="menu-item-1735"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1735">
-                                                    <a href="{% url 'library' %}" class="menu-link">Library</a></li>
+                                                    <a href="{% url 'library' %}" class="menu-link">Library</a>
+                                                </li>
                                                 <li id="menu-item-1731"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1731">
-                                                    <a href="{% url 'gallery' %}" class="menu-link">Gallery</a></li>
+                                                    <a href="{% url 'gallery' %}" class="menu-link">Gallery</a>
+                                                </li>
                                                 <li id="menu-item-1734"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1734">
-                                                    <a href="{% url 'contact' %}" class="menu-link">Contact</a></li>
+                                                    <a href="{% url 'contact' %}" class="menu-link">Contact</a>
+                                                </li>
                                             </ul>
 
 
@@ -3874,13 +3871,14 @@ flexibility(document.documentElement);
 
         <!-- #content -->
         <div>
-           
+
             <p>
                 <img id="img-center" src="{% static 'images/SundaySchool.jpg' %}" alt="">
             </p>
 
             <h2>SUNDAY SCHOOL MINISTRY </h2>
-            <p>"Train up a child in the way he should go: and when he is old, he will not depart from it” (Proverbs 22:6)
+            <p>"Train up a child in the way he should go: and when he is old, he will not depart from it” (Proverbs
+                22:6)
             </p>
             <p>Our Sunday school programme sets an important foundation for the little ones. Starting from infants, all
                 the way to 13-year olds, Sunday school consists of a number of age-level classes where they are taught
